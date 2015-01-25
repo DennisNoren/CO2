@@ -3,10 +3,9 @@
 # January, 2015
 # Data sources:
 #   Scripps Inst. of Oceanography, U. of California
-#   
 
 # Input data description:
-# Time series of carbon dioixide in ppm from 1959 to 1997
+# Time series of carbon dioxide in ppm from 1959 to 1997
 # 468 monthly observations
 
 require(ggplot2)

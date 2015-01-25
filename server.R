@@ -37,8 +37,11 @@ shinyServer(function(input, output, session) {
 
   output$doc1 <- renderUI({
     blk1 <- "Data Source: Keeling, C. D. and Whorf, T. P., Scripps Institution of Oceanography (SIO),
-    University of California, La Jolla, California USA 92093-0220.<br/>
-    The data are obtained from the datasets package included 
+    University of California, La Jolla, California USA 92093-0220,<br/>
+    in cooperation with NOAA Earth System Research Laboratory.<br/>
+    More information available here:<br/>
+    http://www.esrl.noaa.gov/gmd/ccgg/trends/<br/>
+    This version of the dataset is obtained from the datasets package included 
     in Base R.<br/>"
     blk2 <- "Atmospheric concentrations of CO2 are expressed in
     parts per million (ppm) and reported in the preliminary
